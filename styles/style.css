@@ -1,0 +1,272 @@
+.row::after {
+  content: "";
+  clear: both;
+  display: block; }
+
+[class*="col-"] {
+  float: left; }
+
+@media only screen and (min-width: 768px) {
+  /* For tablets: */
+  .col-1 {
+    width: 8.33333%; }
+
+  .col-2 {
+    width: 16.66667%; }
+
+  .col-3 {
+    width: 25%; }
+
+  .col-4 {
+    width: 33.33333%; }
+
+  .col-5 {
+    width: 41.66667%; }
+
+  .col-6 {
+    width: 50%; }
+
+  .col-7 {
+    width: 58.33333%; }
+
+  .col-8 {
+    width: 66.66667%; }
+
+  .col-9 {
+    width: 75%; }
+
+  .col-10 {
+    width: 83.33333%; }
+
+  .col-11 {
+    width: 91.66667%; }
+
+  .col-12 {
+    width: 100%; } }
+.nav {
+  height: 35px;
+  background-color: #212F3D;
+  padding-bottom: 8px;
+  padding-top: 5px; }
+  .nav .navcontent {
+    padding-left: 400px; }
+
+.container {
+  width: 1366px;
+  height: 600px; }
+
+.direct_2 {
+  color: #B0C0D7; }
+
+.direct_1 {
+  color: #0595FF; }
+
+.buttonNav {
+  background-color: #35A7FF;
+  height: 30px;
+  width: 97px;
+  font-size: 12px;
+  padding: 5px;
+  color: white;
+  border-radius: 4px;
+  border-color: #35A7FF;
+  border-border: none;
+  margin: 5px;
+  border: none; }
+
+.logos2, .logos {
+  position: relative;
+  margin: 0; }
+
+.logo_1 {
+  background: url("../images/logos.png")-0px 0;
+  left: 130px;
+  top: -45px;
+  position: absolute;
+  display: inline;
+  width: 30px;
+  height: 35px; }
+
+.logo_2 {
+  background: url("../images/logos.png")-42px 0;
+  left: 170px;
+  top: -45px;
+  position: absolute;
+  display: inline;
+  width: 30px;
+  height: 35px; }
+
+.logo_3 {
+  background: url("../images/logos.png")-84px 0;
+  left: 210px;
+  top: -45px;
+  position: absolute;
+  display: inline;
+  width: 30px;
+  height: 35px; }
+
+.logo_4 {
+  background: url("../images/logos.png")-126px 0;
+  left: 250px;
+  top: -45px;
+  position: absolute;
+  display: inline;
+  width: 30px;
+  height: 35px; }
+
+.sideNavigation {
+  width: 60px;
+  height: 700px;
+  background-color: #2C3E50;
+  float: left; }
+
+.logos_1 {
+  background: url("../images/logos_2.png") -5px 0px;
+  left: 8px;
+  top: 20px;
+  position: absolute;
+  width: 48px;
+  height: 45px; }
+
+.logos_2 {
+  background: url("../images/logos_2.png") -5px -50px;
+  left: 8px;
+  top: 70px;
+  position: absolute;
+  width: 48px;
+  height: 45px; }
+
+.logos_3 {
+  background: url("../images/logos_2.png") -5px -100px;
+  left: 8px;
+  top: 120px;
+  position: absolute;
+  width: 48px;
+  height: 45px; }
+
+.logos_4 {
+  background: url("../images/logos_2.png") -5px -150px;
+  left: 8px;
+  top: 170px;
+  position: absolute;
+  width: 48px;
+  height: 45px; }
+
+.logos_5 {
+  background: url("../images/logos_2.png") -5px -200px;
+  left: 8px;
+  top: 220px;
+  position: absolute;
+  width: 48px;
+  height: 45px; }
+
+.direct_0 {
+  color: white;
+  font-size: 25px;
+  margin-right: 25px;
+  margin-left: -20px; }
+
+li {
+  display: inline; }
+
+ul {
+  margin: 0 auto;
+  list-style-type: none; }
+
+.options1 {
+  padding-right: 10px; }
+
+.userCreate {
+  border: none;
+  background-color: #1092E7;
+  color: white;
+  height: 25px;
+  padding: 0 8px;
+  border-radius: 2px; }
+
+.section {
+  font-size: 12px;
+  background-color: #EAECEE; }
+
+table {
+  width: 100%;
+  text-align: left;
+  padding-left: 20px;
+  margin: 10px; }
+
+th, table, td, table {
+  border: 1px solid #D5D8DC;
+  border-collapse: collapse; }
+
+th, table {
+  color: #414B64;
+  background-color: #EAEAEB;
+  height: 28px;
+  padding-left: 10px; }
+
+td, table {
+  background-color: white;
+  height: 10px;
+  padding-left: 10px; }
+
+img {
+  border: none; }
+
+.maincontent {
+  width: 94%;
+  float: left; }
+
+.tablehead {
+  border-collapse: collapse;
+  padding: 18px;
+  padding-bottom: 7px;
+  font-size: 20px; }
+
+.menu {
+  text-align: right;
+  margin-top: -30px;
+  font-size: 12px; }
+
+.tabledata {
+  border-right-color: #EAEAEB;
+  color: #A7A7A8; }
+
+.data_1 {
+  width: 20%; }
+
+.data_2 {
+  width: 30%; }
+
+.data_3 {
+  width: 18%; }
+
+.data_4 {
+  width: 14%; }
+
+.data_5 {
+  width: 10%; }
+
+.data_6 {
+  width: 10%; }
+
+body {
+  margin: 0;
+  font-family: arial,"Sans serif";
+  font-size: 15px; }
+
+.funnel {
+  vertical-align: middle; }
+
+.profile {
+  vertical-align: middle; }
+
+.arrow1 {
+  margin-left: 79%; }
+
+.arrow2 {
+  margin-left: 86%; }
+
+.arrow3 {
+  margin-left: 52%; }
+
+/*# sourceMappingURL=style.css.map */
